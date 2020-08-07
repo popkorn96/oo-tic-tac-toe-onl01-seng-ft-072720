@@ -69,7 +69,8 @@ class TicTacToe
 end
 end
 end
-def full
+def full?
+  @board.all
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
