@@ -10,7 +10,7 @@ class TicTacToe
   puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
   def input_to_index(index)
-    input_to_index - 1
+    input_to_i - 1
   end
   def move(index,token = X)
     @board[index] = token
