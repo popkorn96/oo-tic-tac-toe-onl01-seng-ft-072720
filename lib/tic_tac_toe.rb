@@ -47,7 +47,7 @@ class TicTacToe
     end
   end
   
-  def turn 
+  def turn(user_input)
     
   end
     WIN_COMBINATIONS = [
