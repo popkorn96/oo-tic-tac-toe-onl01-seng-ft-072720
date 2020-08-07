@@ -82,6 +82,9 @@ def over?
   (draw?) || (won?) || (full?)
 end
 
+def winner?
+  
+end
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
