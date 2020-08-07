@@ -64,8 +64,9 @@ class TicTacToe
   b = WIN_COMBINATIONS.find{|win_combo|
   @board[win_combo[0] == "O" && @board[win_combo[1]] == "O" &&
     @board[win_combo[2]]}
-    
+    return a || b || false
   end
+  
     WIN_COMBINATIONS = 
     [0,1,2],
     [3,4,5],
