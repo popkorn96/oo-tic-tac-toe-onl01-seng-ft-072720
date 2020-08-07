@@ -13,7 +13,7 @@ class TicTacToe
     input_to_index-1
   end
   def move(index,token = X)
-    index = 
+    @board[index = token]
   end
     
     WIN_COMBINATIONS = [
