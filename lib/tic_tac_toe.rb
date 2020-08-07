@@ -51,9 +51,8 @@ class TicTacToe
     puts "Please choose between places 1-9"
     input = gets
     index = input_to_index(input)
-    char = current_player
     if valid_move?(index)
-      move(index,char)
+      move(index,current_player)
       display_board
     else 
       turn
