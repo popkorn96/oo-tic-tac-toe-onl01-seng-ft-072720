@@ -92,6 +92,9 @@ def winner
   nil
 end
 end
+
+def play 
+  while 
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
