@@ -65,6 +65,7 @@ class TicTacToe
   elsif WIN_COMBINATIONS.find{|win_combo|
   @board[win_combo[0]] == "O" && @board[win_combo[1]] == "O" &&
     @board[win_combo[2]]}
+    return win_combo
   else 
     false
   end
