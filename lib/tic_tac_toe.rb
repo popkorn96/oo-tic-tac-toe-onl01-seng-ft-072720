@@ -47,7 +47,9 @@ class TicTacToe
     end
   end
   
-  def turn(user_input)
+  def turn
+    puts "Please input a number between 1 and 9"
+    
     
   end
     WIN_COMBINATIONS = [
