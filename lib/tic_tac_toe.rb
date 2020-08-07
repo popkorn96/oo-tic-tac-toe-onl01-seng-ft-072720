@@ -24,11 +24,12 @@ class TicTacToe
   
   
   def turn_count
-    turn_count = []
+    num_turn_count = []
     @board.each do |space|
       if space == "X" || space == "O"
-        turn_count += 1 
+        num_turn_count += 1 
       end
+      return num_turn_count
     end
     
     WIN_COMBINATIONS = [
