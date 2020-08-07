@@ -18,7 +18,8 @@ class TicTacToe
   def position_taken?(index)
     ((@board[index] == "X") || (@board[index] == "O"))
   end
-  
+  def valid_move?
+    [index].between? (0..8) && position_taken?
     
     WIN_COMBINATIONS = [
     [0,1,2],
