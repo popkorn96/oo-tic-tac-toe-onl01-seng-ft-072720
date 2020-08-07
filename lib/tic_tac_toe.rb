@@ -11,5 +11,5 @@ class TicTacToe
     [2,5,8],
     [0,4,8],
     [2,6,4],]
-  
+  def 
 end
