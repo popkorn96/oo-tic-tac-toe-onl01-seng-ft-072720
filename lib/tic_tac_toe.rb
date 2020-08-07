@@ -29,8 +29,9 @@ class TicTacToe
       if space == "X" || space == "O"
         num_turn_count += 1 
       end
-      return num_turn_count
     end
+    return num_turn_count
+  end
     
     WIN_COMBINATIONS = [
     [0,1,2],
