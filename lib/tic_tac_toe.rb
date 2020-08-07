@@ -99,7 +99,10 @@ def play
   end
   if won? 
     puts "Contradulations #{winner}!"
-    
+  elsif draw!
+    puts "Cat's paws!"
+  end
+end
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
