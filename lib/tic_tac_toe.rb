@@ -25,7 +25,8 @@ class TicTacToe
   
   def turn_count
     turn_count = []
-    @board.each do |
+    @board.each do |space|
+      
     
     WIN_COMBINATIONS = [
     [0,1,2],
