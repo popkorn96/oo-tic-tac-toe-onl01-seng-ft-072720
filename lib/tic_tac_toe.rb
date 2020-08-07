@@ -79,7 +79,7 @@ def draw?
 end
 
 def over?
-  (draw?) && (won?) && (full?)
+  (draw?) || (won?) || (full?)
 end
 
     WIN_COMBINATIONS = [
