@@ -52,7 +52,7 @@ class TicTacToe
     gets.strip
     index = input_to_index
     if valid_move?(index)
-      
+      move(index,token)
     
   end
     WIN_COMBINATIONS = [
