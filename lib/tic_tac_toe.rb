@@ -15,6 +15,7 @@ class TicTacToe
   def move(index,token = X)
     @board[index] = token
   end
+  
     
     WIN_COMBINATIONS = [
     [0,1,2],
