@@ -49,8 +49,9 @@ class TicTacToe
   
   def turn
     puts "Please input a number between 1 and 9"
-    gets.strip
+    input = gets.strip
     index = input_to_index
+    
     if valid_move?(index)
       move(index,token)
       display_board
