@@ -55,6 +55,8 @@ class TicTacToe
       move(index,token)
       display_board
     else 
+      turn
+    end
     
   end
     WIN_COMBINATIONS = [
