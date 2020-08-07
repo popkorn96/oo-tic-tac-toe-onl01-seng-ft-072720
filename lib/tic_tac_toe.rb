@@ -77,6 +77,11 @@ end
 def draw?
   !(won?) && (full?)
 end
+
+def over?
+  (draw?) && (won?) && (full?)
+end
+
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
