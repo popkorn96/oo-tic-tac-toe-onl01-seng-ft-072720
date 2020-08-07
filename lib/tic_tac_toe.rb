@@ -57,7 +57,9 @@ class TicTacToe
     else 
       turn
     end
- #
+ #Your #won? method should return false/nil if there is no win combination present in the board and return the winning combination indexes as an array if there is a win. Use your WIN_COMBINATIONS constant in this method.
+ def won?
+   
     
   end
     WIN_COMBINATIONS = [
