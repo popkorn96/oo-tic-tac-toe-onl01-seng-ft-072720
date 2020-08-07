@@ -69,7 +69,7 @@ class TicTacToe
 end
 end
 end
-def 
+def full
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
