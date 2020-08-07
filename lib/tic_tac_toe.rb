@@ -32,7 +32,7 @@ class TicTacToe
     end
     return num_turn_count
   end
-  def 
+  def current_player
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
