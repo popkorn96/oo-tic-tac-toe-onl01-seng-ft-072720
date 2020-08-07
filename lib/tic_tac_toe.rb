@@ -33,6 +33,8 @@ class TicTacToe
     return num_turn_count
   end
   def current_player
+    turn_count.even? "X" : "O"
+  end
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
