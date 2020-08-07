@@ -66,6 +66,7 @@ class TicTacToe
     @board[win_combo[2]]}
     return a || b
   end
+  end
   
     WIN_COMBINATIONS = [
     [0,1,2],
