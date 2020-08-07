@@ -100,7 +100,7 @@ def play
   if won? 
     puts "Congradulations #{winner}!"
   elsif draw?
-    puts "Cat's paws!"
+    puts "Cat's Game!"
   end
 end
     WIN_COMBINATIONS = [
