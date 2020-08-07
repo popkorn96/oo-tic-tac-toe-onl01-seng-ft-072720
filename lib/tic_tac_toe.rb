@@ -58,6 +58,7 @@ class TicTacToe
     else 
       turn
     end
+  def 
     
   end
     WIN_COMBINATIONS = [
