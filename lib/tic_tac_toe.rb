@@ -94,10 +94,12 @@ end
 end
 
 def play 
-  while over? == false 
+  while !(over?)
     turn 
   end
   if won? 
+    puts "Contradulations #{winner}!"
+    
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
