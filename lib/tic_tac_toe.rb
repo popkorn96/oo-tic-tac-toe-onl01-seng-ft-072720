@@ -12,7 +12,7 @@ class TicTacToe
   def input_to_index(index)
     input_to_index-1
   end
-  def move(index,(X || O))
+  def move(index,p_token)
   end
     
     WIN_COMBINATIONS = [
