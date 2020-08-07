@@ -62,7 +62,7 @@ class TicTacToe
   a = WIN_COMBINATIONS.find{|win_combo|
   @board[win_combo[0]] == "X" && @board[win_combo[1]] == "X" && @board[win_combo[2]]}
   b = WIN_COMBINATIONS.find{|win_combo|
-  @board[win_combo[0] == "O" && @board[win_combo[1]] == "O" &&
+  @board[win_combo[0]] == "O" && @board[win_combo[1]] == "O" &&
     @board[win_combo[2]]}
     return a || b
   end
