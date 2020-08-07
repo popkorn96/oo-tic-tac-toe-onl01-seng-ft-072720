@@ -69,8 +69,13 @@ class TicTacToe
 end
 end
 end
+
 def full?
   @board.all?{|occupied| occupied !=" "}
+end
+
+def draw?
+  !(won?) && (full?)
 end
     WIN_COMBINATIONS = [
     [0,1,2],
