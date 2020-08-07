@@ -53,6 +53,8 @@ class TicTacToe
     index = input_to_index
     if valid_move?(index)
       move(index,token)
+      display_board
+    else 
     
   end
     WIN_COMBINATIONS = [
