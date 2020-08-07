@@ -94,7 +94,10 @@ end
 end
 
 def play 
-  while 
+  while over? == false 
+    turn 
+  end
+  if won? 
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
