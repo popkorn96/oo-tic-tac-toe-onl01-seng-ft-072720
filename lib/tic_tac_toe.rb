@@ -67,6 +67,8 @@ class TicTacToe
   end
   false
 end
+end
+end
   
     WIN_COMBINATIONS = [
     [0,1,2],
