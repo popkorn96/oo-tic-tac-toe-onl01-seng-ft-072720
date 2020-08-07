@@ -70,7 +70,8 @@ end
 end
 end
 def full?
-  @board.all
+  @board.all?{|occupied| occupied !=" "}
+end
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
