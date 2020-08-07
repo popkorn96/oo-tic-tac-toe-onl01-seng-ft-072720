@@ -60,15 +60,15 @@ class TicTacToe
  #Your #won? method should return false/nil if there is no win combination present in the board and return the winning combination indexes as an array if there is a win. Use your WIN_COMBINATIONS constant in this method.
   def won?
   WIN_COMBINATIONS.detect do |win_combo|
-  if (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]])
-  return win_combo
-  elsif (@board[win_combo[0]]) == "O" && (@board[win_combo[1]]) == "O" && (@board[win_combo[2]])
+  if (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
+    return win_combo
+  elsif (@board[win_combo[0]]) == "O" && (@board[win_combo[1]]) == "O" && (@board[win_combo[2]]) == "O"
     return win_combo
   end
   false
 end
 end
-  
+end
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
