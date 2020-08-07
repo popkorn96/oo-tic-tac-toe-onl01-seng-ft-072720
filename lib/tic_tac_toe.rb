@@ -48,7 +48,7 @@ class TicTacToe
   end
   
   def turn
-    puts "Please input a number between 1 and 9"
+    puts "Please choose between places 1-9"
     input = gets
     index = input_to_index(input)
     char = current_player
