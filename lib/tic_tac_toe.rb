@@ -17,7 +17,11 @@ class TicTacToe
   end
   def position_taken?(user_input)
     if @board[index] == nil
-      
+      false 
+    else @board[index] = token 
+      true 
+    end
+  end
     
     
     WIN_COMBINATIONS = [
